@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(59, 59, 64, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+img {
+  width: 100%;
+}
+#quemsoueu {
+  text-align: center;
+}
+#linha {
+  border-bottom: 1px solid rgba(209, 209, 209, 0.7);
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#cabecalhoProdutos {
+  text-align: center;
+}
+#meusprodutos {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+ 
+}
+.produto {
+  border: 1px solid rgba(209, 209, 209, 0.7);
+  border-radius: 15px;
+}
+h3{
+  text-align: center;
+}
+@media ( max-width:600px) {
+  #meusprodutos{
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .produto{
+    margin-bottom: 15px;
+  }
+
+}
